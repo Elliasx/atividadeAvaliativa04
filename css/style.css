@@ -73,7 +73,7 @@ body{
 .main{
     height: 1210px;
     width: 1260px;
-    margin-top: 10px;
+    margin: 10px 0 ;
 }
 .imgs-surf{
     display: grid;
@@ -215,4 +215,61 @@ body{
     line-height: 125.9%;
 
     margin: 0 10px  ;
+}
+.footer{
+    height: 228px;
+    width: 1280px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #161616;
+}
+.titulo-footer{
+    height: 100px;
+    width: 213px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 125.9%;
+
+    color: #fff;
+}
+.redes-sociais a{
+    /* border: 2px solid red; */
+
+    margin-right: 3.5rem;
+    text-decoration: none;
+}
+.bibi-tiktok{
+    margin-bottom: 0.35rem;
+}
+.bibi-twitter{
+    margin-bottom: 0.38rem;
+}
+.bibi-youtube{
+    margin-bottom: 0.4rem;
+}
+.subtitulo-footer{
+    color: #fff;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 125.9%;
+}
+
+/* Animação do formulário */
+
+@keyframes fade {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
