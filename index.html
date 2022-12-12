@@ -11,7 +11,7 @@
     <div class="container">
         <header class="header">
             <h1 class="titulo">Fotografia Radical</h1>
-            <button type="submit" class="botao-login">Login</button>
+            <button onclick="acao()" type="menu" class="botao-login">Login</button>
         </header>
 
         <nav class="nav">
@@ -193,6 +193,33 @@
             <p>Copyright - 2022</p>
           </section>
         </footer>
+
+        <div class="formulario">
+          <h2 class="titulo-formulario">Login</h2>
+
+          <form action="#" class="form">
+            <div class="input-email">
+              <label for="email">E-mail</label>
+              <input type="email" class="email" id="email" required minlength="15" placeholder="Digite seu E-mail">
+            </div>
+
+            <div class="input-senha">
+              <label for="password">Senha</label>
+              <input type="password" name="password" id="password" required minlength="8" placeholder="Digite sua senha">
+            </div>
+
+            <div class="btns">
+              <button onclick="fechar()" type="button" class="btn-cancelar">Cancelar</button>
+              <button type="submit" class="btn-login">Login</button>
+            </div>
+          </form>
+
+          <div onclick="fechar()" class="fechar-formulario">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bibi-x-lg" viewBox="0 0 16 16">
+              <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+            </svg>
+          </div>
+        </div>
     </div>
 
     <script src="js/script.js"></script>
